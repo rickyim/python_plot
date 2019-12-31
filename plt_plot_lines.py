@@ -19,7 +19,10 @@ plt.legend(fontsize=32)
 #twin axis
 ax_1 = ax.twinx()
 
+
 ax.set_xlabel('Number of Epoch', fontsize=32)
 ax.set_ylabel('Testing Accuracy (%)', fontsize=32)
-plt.savefig('./training_cpr.png')
+plt.savefig('')
+#tight layout
+plt.tight_layout()
 plt.show()
